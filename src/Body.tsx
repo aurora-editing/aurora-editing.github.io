@@ -39,7 +39,7 @@ export const Body = () => {
       </Section>
       <Section title="Demo">
         <p className="leading-7 [&:not(:first-child)]:mt-6 text-justify">
-          Demo: 
+          The demo: 
         </p>
         <iframe
           src="https://timbrooks-instruct-pix2pix.hf.space"

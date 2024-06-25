@@ -2,7 +2,7 @@
   "name": "aurora-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://aurora-editing.github.io/",
+  "homepage": "https://aurora-editing/aurora-editing.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
