@@ -47,7 +47,22 @@ export function NavigationMenuDemo() {
               </NavigationMenuLink>
             </a>
           </NavigationMenuItem>
+          </NavigationMenuItem>
           <NavigationMenuItem>
+            <a href="https://huggingface.co/collections/McGill-NLP/aurora-667ec89fbc53ec5d0b7de6e9" className={navigationMenuTriggerStyle()} target='_blank'>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Huggingface Datasets
+              </NavigationMenuLink>
+            </a>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <a href="https://huggingface.co/" className={navigationMenuTriggerStyle()} target='_blank'>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Huggingface Demo
+              </NavigationMenuLink>
+            </a>
+          </NavigationMenuItem>
+{/*           <NavigationMenuItem>
             <NavigationMenuTrigger>More</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -62,7 +77,7 @@ export function NavigationMenuDemo() {
                 ))}
               </ul>
             </NavigationMenuContent>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
         </NavigationMenuList>
       </NavigationMenu>
     )
