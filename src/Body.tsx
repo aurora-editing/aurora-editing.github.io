@@ -30,7 +30,7 @@ export const Body = () => {
         <p className="leading-7 [&:not(:first-child)]:mt-6 text-justify">
           We present AURORA, a balanced dataset covering Action Reasoning, Object and Attribute edits, comprising a total of 289K training examples. 
         </p>
-        <img src={fig2} alt="Figure 2" style={{height: "auto", width: "auto"}}/>
+        <img src={aurorafig} alt="Figure 2" style={{height: "auto", width: "auto"}}/>
       </Section>
       <Section title="AURORA-BENCH">
         <p className="leading-7 [&:not(:first-child)]:mt-6 text-justify">
