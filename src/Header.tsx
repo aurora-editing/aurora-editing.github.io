@@ -4,30 +4,13 @@ import { cn } from "@/lib/utils"
 // import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import auroraImage from './assets/aurora.jpg'
 import './Header.css'
-
-const components: { title: string; href: string; description: string }[] = [
-  {
-    title: "Option 1",
-    href: "/docs/primitives/alert-dialog",
-    description:
-      "test 1",
-  },
-  {
-    title: "Option 2",
-    href: "/docs/primitives/hover-card",
-    description:
-      "test 2",
-  },
-]
 
 export function NavigationMenuDemo() {
     return (
@@ -36,29 +19,28 @@ export function NavigationMenuDemo() {
           <NavigationMenuItem>
             <a href="https://openreview.net/pdf?id=sw9iOHGxgm" className={navigationMenuTriggerStyle()} target='_blank'>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Paper
+                Paper 📜
               </NavigationMenuLink>
             </a>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <a href="https://github.com/McGill-NLP/AURORA" className={navigationMenuTriggerStyle()} target='_blank'>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                GitHub
+                GitHub 💻
               </NavigationMenuLink>
             </a>
-          </NavigationMenuItem>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <a href="https://huggingface.co/collections/McGill-NLP/aurora-667ec89fbc53ec5d0b7de6e9" className={navigationMenuTriggerStyle()} target='_blank'>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Huggingface Datasets
+                Datasets 🤗
               </NavigationMenuLink>
             </a>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <a href="https://huggingface.co/" className={navigationMenuTriggerStyle()} target='_blank'>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Huggingface Demo
+                Demo 🤗
               </NavigationMenuLink>
             </a>
           </NavigationMenuItem>

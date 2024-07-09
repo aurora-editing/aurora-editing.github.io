@@ -1,5 +1,5 @@
 import fig1 from './assets/fig1.png'
-import fig2 from './assets/fig2.png'
+import aurorafig from './assets/aurorafig.png'
 
 const Section = ({ title, hasTitle = true, children }: any) => {
   const marginClass = hasTitle ? 'my-10' : 'my-0';
@@ -38,15 +38,11 @@ export const Body = () => {
         </p>
       </Section>
       <Section title="Demo">
-        <p className="leading-7 [&:not(:first-child)]:mt-6 text-justify">
-          The demo: 
-        </p>
         <iframe
-          src="https://timbrooks-instruct-pix2pix.hf.space"
+          src="https://mcgill-nlp-aurora.hf.space"
           width="auto"
           height="450"
         ></iframe>
-
       </Section>
     </main>
   )
