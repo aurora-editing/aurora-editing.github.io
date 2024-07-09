@@ -8,7 +8,9 @@ function App() {
     <Header/>
     <Body/>
     <footer className='footer'>
-      Made with &lt;3 at Mila
+      benno.krojer@mila.quebec
+      <br />
+      Developed by McGill NLP
     </footer>
     </>
   )

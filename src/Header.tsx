@@ -17,7 +17,7 @@ export function NavigationMenuDemo() {
       <NavigationMenu className='header-navbar'>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <a href="https://openreview.net/pdf?id=sw9iOHGxgm" className={navigationMenuTriggerStyle()} target='_blank'>
+            <a href="https://arxiv.org/abs/2407.03471" className={navigationMenuTriggerStyle()} target='_blank'>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Paper 📜
               </NavigationMenuLink>
@@ -38,7 +38,7 @@ export function NavigationMenuDemo() {
             </a>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <a href="https://huggingface.co/" className={navigationMenuTriggerStyle()} target='_blank'>
+            <a href="https://huggingface.co/spaces/McGill-NLP/AURORA" className={navigationMenuTriggerStyle()} target='_blank'>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Demo 🤗
               </NavigationMenuLink>

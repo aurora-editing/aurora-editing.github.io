@@ -41,7 +41,7 @@ export const Body = () => {
         <iframe
           src="https://mcgill-nlp-aurora.hf.space"
           width="auto"
-          height="450"
+          height="1000"
         ></iframe>
       </Section>
     </main>
