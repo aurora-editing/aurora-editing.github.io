@@ -1,5 +1,5 @@
 import fig1 from './assets/fig1.png'
-import aurorafig from './assets/aurorafig.png'
+import aurorafigure from './assets/aurorafig.png'
 
 const Section = ({ title, hasTitle = true, children }: any) => {
   const marginClass = hasTitle ? 'my-10' : 'my-0';
